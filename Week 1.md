@@ -26,7 +26,8 @@ This summary covers the key concepts from the "Lecture 01 - Overview of Cloud Co
     - **Platform as a Service (PaaS):** Offers a platform for developers to build and deploy applications(Execution Runtime, DBs, Web Servers, Dev Tools)
     - **Software as a Service (SaaS):** Delivers applications over the internet.
     
-  ![image.png](attachment:9fde94a4-980e-47f5-ab30-42f824c666d4:image.png)
+![image](https://github.com/user-attachments/assets/86162dc3-8d54-4bc7-8153-0c84c8487fcc)
+
     
 - Data Intensive:
     - Typically store data at datacenters and use compute nodes nearby. The focus therefore shifts from computation to data.
@@ -35,7 +36,12 @@ This summary covers the key concepts from the "Lecture 01 - Overview of Cloud Co
     - MapReduce
     - Hadoop
     - NoSQL
+ ![image](https://github.com/user-attachments/assets/5c1785dd-80ae-4c38-92f1-d31fd6d6861e)
 
+
+- Moore’s law indicates that processor speed doubles every 18 months.
+
+- Gilder’s law indicates that network bandwidth has doubled each year in the past.
 ### 4. Advantages of Cloud Computing
 
 - **Cost Savings:** Reduced IT operational costs, no upfront hardware investments, pay-as-you-go pricing.
@@ -152,13 +158,15 @@ There are four main benefits of moving data centres to the edge,
     - Capturing high-velocity, high-throughput data from various sources.
     - Uses message queues like Kafka.
     
-    ![image.png](attachment:0a89df8d-98b4-4e96-a486-de793fe764b9:image.png)
+    ![image](https://github.com/user-attachments/assets/ba450752-4b5c-4ab0-b246-cd0de34d2f27)
+
     
 2. **Machine-to-Machine (M2M) Brokers**
     - Facilitates real-time communication between IoT devices.
     - Example: MQTT for real-time sensor communication.
     
-    ![image.png](attachment:7eb8be47-bb9c-4fcd-9b44-7bfa461f1aa0:image.png)
+    ![image](https://github.com/user-attachments/assets/56e93647-22e2-4b3f-983d-bd6c0e48aa0a)
+
     
 3. **Storage Layers**
     - **Object Storage**: Handles unstructured data (e.g., video feeds).
@@ -166,7 +174,8 @@ There are four main benefits of moving data centres to the edge,
 4. **Stream Processing**
     - Real-time event processing for applications like fraud detection and anomaly detection.
     
-    ![image.png](attachment:987eee1c-e821-419a-8c7a-fa5d7dc939e8:image.png)
+    ![image](https://github.com/user-attachments/assets/23eb69a7-40de-4676-b524-543523dceb2d)
+
     
 5. **Function as a Service (FaaS)**
     - Lightweight, event-driven compute model.
@@ -211,15 +220,19 @@ Compared with cloud computing only, the main advantages of edge computing combin
     - Small, localized data centers that offload processing from the cloud.
     - Used for **real-time applications like facial recognition and AR/VR**.
     
-    ![image.png](attachment:06a65eb1-06f3-431c-99f4-3b8413087084:image.png)
+    ![image](https://github.com/user-attachments/assets/9ce04aca-0ca0-4945-ae00-bb7bf67cd8f3)
+
     
 2. **Fog Computing**
     - A **multi-tier** computing model where IoT devices process some data locally before sending it to the cloud.
     - Works best for **highly distributed IoT networks**.
     
-    ![image.png](attachment:d73ce5a4-e26b-468f-a25d-96b03627dd3e:image.png)
+    ![image](https://github.com/user-attachments/assets/b8c71bb1-d017-40bc-9ce0-5eee4f6f4aa5)
+
     
-    ![image.png](attachment:f5382737-9983-4469-b54f-817856e93044:image.png)
+    ![image](https://github.com/user-attachments/assets/9db8cf87-db73-4e4a-a574-9f808ee8200a)
+
+
     
 3. **Mobile Edge Computing (MEC)**
     - Deploys computing resources at cellular base stations.
@@ -232,7 +245,8 @@ Compared with cloud computing only, the main advantages of edge computing combin
 
 - Edge computing complements cloud computing.
 
-![image.png](attachment:6549515a-5a29-4c3c-8a09-6e1a6dc9529b:image.png)
+![image](https://github.com/user-attachments/assets/176e3d90-4a66-4e3e-8238-56f6c3f2e417)
+
 
 - **Key Challenges in Edge-Cloud Systems**:
     - Task allocation strategies for latency-sensitive applications.
@@ -245,22 +259,29 @@ Compared with cloud computing only, the main advantages of edge computing combin
     - Data is processed at the edge without cloud involvement.
     - Offers the lowest latency.
     
-    ![image.png](attachment:a2ccb62f-6625-4c3a-be81-105c6f12ea37:image.png)
+    ![image](https://github.com/user-attachments/assets/cad1e448-9652-4094-bbe2-200876d1f67c)
+
     
-    ![image.png](attachment:85ba833e-ad97-4fe9-84df-584e22a0ccf0:image.png)
+    ![image](https://github.com/user-attachments/assets/1334d1a8-6d98-4828-b07f-28edf1b3ee7c)
+
+
     
 2. **Edge + Cloud Collaboration**:
     - Part of the data is processed locally, while some tasks are sent to the cloud.
     - Balances compute efficiency and latency.
     
-    ![image.png](attachment:d0636e80-6966-41f0-add0-d5d11e087892:image.png)
+    ![image](https://github.com/user-attachments/assets/4781eabe-527b-4c8f-bf1e-2157133622a5)
+
     
-    ![image.png](attachment:cb995f95-ce26-41c4-8d21-6be745bbf9c0:image.png)
+    !![image](https://github.com/user-attachments/assets/e335880e-a7af-4f1d-9484-42e9804fecf3)
+
     
 3. **Multi-Level Edge Processing**:
     - Tasks are dynamically distributed across multiple edge nodes and the cloud.
     - Best suited for **highly distributed IoT applications**.
     
-    ![image.png](attachment:fad96edb-774a-4e54-a0f7-d8b44ff88eb2:image.png)
+    ![image](https://github.com/user-attachments/assets/5420fd9d-2cb0-46e9-bedf-99fd249c510b)
+
     
-    ![image.png](attachment:126a302f-8bc4-4ec9-bd88-d600c026793f:image.png)
+    ![image](https://github.com/user-attachments/assets/bb455323-1257-4c81-95c6-ba330b472dda)
+
